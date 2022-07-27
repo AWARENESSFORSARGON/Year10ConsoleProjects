@@ -7,11 +7,32 @@ namespace _01_HelloWorld
         static void Main(string[] args)
         {
             // 1. Output 'Hello World!' to the console screen by using 'Console.WriteLine();'
-            
+            Console.WriteLine("Hello World");
 
             // 2. Make the program wait for input by using 'Console.ReadLine();'
-            
+            Console.ReadLine();
+        
+           Console.WriteLine("Hey Man");
+           Console.ReadLine();
+
+            Console.BackgroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine("Green");
+            Console.ReadLine();
+
+            Console.Beep(1000, 100);
+            Console.Beep(1500, 100);
+            Console.Beep(2000, 100);
+            Console.Beep(2500, 100);
+            Console.Beep(3000, 100);
+            Console.Beep(2500, 100);
+            Console.Beep(2000, 100);
+            Console.Beep(1500, 100);
+            Console.Beep(1000, 100);
+
         }
+       
+
     }
 }
 
